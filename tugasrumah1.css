@@ -1,0 +1,74 @@
+.container {
+    display: grid;
+    grid-template-rows: 280px 100px;
+    width: 300px;
+    border: 3px solid pink;
+    background: whitesmoke;
+    margin-left: 500px;
+    margin-top: 100px;
+    border-radius: 50px;      
+    box-shadow: 0 0 2px 2px pink;      
+}
+.img {
+    margin-top: 28px;
+    margin-left: 15px;
+    height: 40px;
+    width: 40px;
+}
+img {
+    border-radius: 50px;
+    height: 250px;
+    width: 100px;
+}
+.judul {
+    font-size: 18px;
+    margin-left: 20px;
+    font-style: oblique;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: pink;
+}
+.name {
+    color: pink;
+    width: 80px;
+    margin-top: -72px;
+    margin-left: 30px;
+}
+.bill {
+    background: pink;
+    color: white;
+    margin-top: -45px;
+    width: 80px;
+    height: 15px;
+    font-size: 13px;
+    text-align: center;
+    margin-left: 30px;
+    border-radius: 100px;
+}
+.ingg {
+    writing-mode: vertical-lr;
+    color: pink;
+    margin-top: -330px; 
+    margin-left: 240px;
+}
+.play {
+    background-color: pink;
+    color: white;
+    text-align: center;
+    width: 100px;
+    height: 35px;
+    margin-left: 178px;
+    margin-top: -65px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+p {
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin-left: 3px;
+}
+.play:hover {
+    background-color: white;
+    color: pink;
+}
